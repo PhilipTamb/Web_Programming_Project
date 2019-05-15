@@ -1,0 +1,192 @@
+body{
+    background: #F8F8F8;
+    margin:0;
+    padding:0;
+    background-color: #2c3e50;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    border: 2px solid #F8F8F8;
+}
+
+.section-result{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.card{
+    display: flex;
+    width: 200px; 
+    height:200px ;
+    margin: 4% 1% 4% 1%;
+    border-radius: 100%;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px #26A7E0;
+    z-index: 0;
+    margin: 10px;
+}
+
+
+.card-image{
+    display: flex;
+    width: 200px; 
+    height:200px ;
+    flex-shrink: 1;
+    border-radius: 100%;
+    z-index: 0;
+
+}
+.card-image:hover{
+    width: 205px; 
+    height:205px ;
+}
+
+.div_titolo_raccolta{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titolo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color: #3498DB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.result_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.div_img_tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.div_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 30px 0 20px 0;
+    transition: 2s;
+  
+}
+
+.div_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    z-index: 0;
+
+
+}
+
+
+.link_image{
+  width: 250px;
+  height: 350px;
+}
+.link_image:hover{
+    width: 300px;
+    height: 400px;
+    /*
+    transform: rotateY(95deg);
+    transition: 2s;
+    animation-delay: 5s;
+    */
+}
+
+.div_title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.div_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    z-index: 1;
+
+}
+.container_button{
+
+ /*   width: 250px;
+    height: 350px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.button_delete{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background: none;
+    display: flex;
+    border: solid#04b12f 3px;
+    border-radius: 20px;
+    margin-top:  10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    transition: 0.25s; 
+    color: #26A7E0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    outline: none;
+}
+.button_delete:hover{
+    border:3px solid  #26A7E0;
+}
+
+.hidden{
+    display: none;
+}
